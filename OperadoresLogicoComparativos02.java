@@ -1,4 +1,5 @@
 public class OperadoresLogicoComparativos02 {
+    public static void main(String[] args) {
     int valor_01=9;
 		int valor_02=6;
 		int valor_03=2;
@@ -9,4 +10,8 @@ public class OperadoresLogicoComparativos02 {
 
         System.out.println("Resposta: "+total);
     
+    }
+
 }
+
+
