@@ -1,5 +1,5 @@
 public class Calculo {
-	public void calculo(int a, int b) {
+	public void calculo(double a, double b) {
 		double soma, sub, div, mult;
 		
 		soma = a + b;
