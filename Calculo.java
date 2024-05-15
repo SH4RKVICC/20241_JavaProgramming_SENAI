@@ -1,6 +1,6 @@
 public class Calculo {
 	public void calculo(int a, int b) {
-		float soma, sub, div, mult;
+		double soma, sub, div, mult;
 		
 		soma = a + b;
 		sub = a - b;
