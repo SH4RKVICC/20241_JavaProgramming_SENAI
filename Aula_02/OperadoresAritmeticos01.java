@@ -1,3 +1,4 @@
+package Aula_02;
 public class OperadoresAritmeticos01 {
 	
 	public static void main(String[] args) {
