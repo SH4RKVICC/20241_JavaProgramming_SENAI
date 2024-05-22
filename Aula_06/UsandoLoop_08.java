@@ -9,7 +9,7 @@ public class UsandoLoop_08 {
 		Scanner ler = new Scanner(System.in);
 		
 		do {
-			System.out.println("Digite um núm: ");
+			System.out.println("Digite um número: ");
 			n = ler.nextInt();
 			if (n % 2 != 0) {
 				s = s + n;
@@ -17,7 +17,7 @@ public class UsandoLoop_08 {
 			cont++;
 			
 		} while (cont<10);
-		System.out.println("O total de números impares é "+s);
+		System.out.println("Total de números ímpares: "+s);
 
 	}
 
