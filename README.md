@@ -1,9 +1,9 @@
 # Programação em Java ☕
 ### 👩‍🎓 Premissa...
-Minhas atividades realizadas no Senai Frederico Jacob em referencia as aulas ministradas pelo Professor Andre e demais recomendações de estudo do mesmo.
+Neste repositório há atividades realizadas no Senai Frederico Jacob em referencia as aulas ministradas pelo Professor Andre, contéudos da Oracle Academy e demais recomendações de estudo do mesmo.
 
 ### 📂 Neste repositorio há meu aprendizado em...
-- System.out.print;
+- strings;
 - variaveis;
 - calcúlos;
 - If/Else;
