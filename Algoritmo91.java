@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Algoritmo91 {
 	//ler dois valores núm. int e efetuar a adição
-	//caso o resultado seja maior que 10, apresenta-lo
+	//caso o resultado seja maior que 10, apresenta-lo!
 	public static void main(String[] args) {
 		int n1, n2, t;
 		Scanner ler = new Scanner(System.in);

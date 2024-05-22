@@ -3,7 +3,8 @@ package Aula04;
 import java.util.Scanner;
 
 public class Algoritmo_90 {
-
+	//Ler um número e dizer se é maior que 20
+	//e se for, mostre!
 	public static void main(String[] args) {
 		double n;
 		Scanner ler = new Scanner(System.in);
