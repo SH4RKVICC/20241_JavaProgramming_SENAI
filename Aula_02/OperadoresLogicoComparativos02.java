@@ -7,7 +7,7 @@ public class OperadoresLogicoComparativos02 {
 		int valor_04=5;
 		boolean total;
 
-        total = valor_01 <= valor_02 || valor_01 == valor_03 || valor_02==00;
+        total = valor_01 <= valor_02 || valor_01 == valor_03 || valor_02==valor_04;
 
         System.out.println("Resposta: "+total);
     
