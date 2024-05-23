@@ -15,6 +15,8 @@ public class UsandoLoopFor02 {
 		}
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.println("Número: "+numeros[i]+"Posição: "+i);
+		} {
+			ler.close();
 		}
 
 	}

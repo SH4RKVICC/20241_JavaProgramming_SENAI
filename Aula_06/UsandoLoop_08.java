@@ -17,7 +17,9 @@ public class UsandoLoop_08 {
 			cont++;
 			
 		} while (cont<10);
-		System.out.println("Total de números ímpares: "+s);
+		System.out.println("Total de números ímpares: "+s); {
+			ler.close();
+		}
 
 	}
 

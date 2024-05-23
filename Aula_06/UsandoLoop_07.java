@@ -17,6 +17,8 @@ public class UsandoLoop_07 {
             cont++;
             
         } while (cont <10);
-        System.out.println("Total de números pares: "+s);
+            System.out.println("Total de números pares: "+s);  {
+                ler.close();
+            }
        }
 }

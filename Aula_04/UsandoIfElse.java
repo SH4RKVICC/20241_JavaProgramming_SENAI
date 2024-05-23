@@ -2,7 +2,7 @@ package Aula_04;
 
 import java.util.Scanner;
 
-public class UtilizandoIfElse {
+public class UsandoIfElse {
 
 	public static void main(String[] args) {
 		int idade, alt;
@@ -25,8 +25,9 @@ public class UtilizandoIfElse {
 			
 		}else {
 			System.out.println("Reprovada!");
+		}  {
+			ler.close();
 		}
-		
 
 	}
 

@@ -21,8 +21,9 @@ public class UsandoIfElse02 {
 			
 		}else {
 			System.out.println("Compra negada!");
+		}  {
+			ler.close();
 		}
-		
 
 	}
 

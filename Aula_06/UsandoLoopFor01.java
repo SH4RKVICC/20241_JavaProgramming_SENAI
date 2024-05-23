@@ -1,7 +1,5 @@
 package Aula_06;
 
-import java.util.Iterator;
-
 public class UsandoLoopFor01 {
 
 	public static void main(String[] args) {
