@@ -1,5 +1,5 @@
 package ProjetoPessoa;
 
 public class Pessoa {
-		String nome, endereco, tel, email;
+		String endereco, tel, email;
 }

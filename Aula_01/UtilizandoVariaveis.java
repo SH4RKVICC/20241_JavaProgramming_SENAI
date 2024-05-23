@@ -1,4 +1,5 @@
 package Aula_01;
+
 public class UtilizandoVariaveis {
     public static void main(String[] args) {
 		//Declarando as variaveis

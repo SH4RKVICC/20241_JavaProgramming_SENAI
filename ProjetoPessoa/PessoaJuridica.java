@@ -1,5 +1,5 @@
 package ProjetoPessoa;
 
-public class PessoaJuridica {    
-    String CNPJ;    
+public class PessoaJuridica extends Pessoa{    
+    String CNPJ, NomeFantasia;    
 }
