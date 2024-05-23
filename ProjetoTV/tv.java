@@ -1,5 +1,21 @@
 package ProjetoTV;
 
-public class tv {
+public class TV {
     private int volume, canal;
+
+    public int getVolume(){
+        return volume;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    public int getCanal(){
+        return canal;
+    }
+
+    public void setCanal(int canal){
+        this.canal = canal;
+    }
 }
