@@ -1,4 +1,4 @@
-package Aula06;
+package Aula_06;
 
 public class SoletrandoSenai {
 
