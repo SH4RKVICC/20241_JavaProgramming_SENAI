@@ -1,7 +1,7 @@
 package ProjetoTV;
 
 public class TV {
-    private int volume, canal;
+    private int volume, canal, mudarVol, mudarCanal;
 
     public int getVolume(){
         return volume;
@@ -17,5 +17,19 @@ public class TV {
 
     public void setCanal(int canal){
         this.canal = canal;
+    }
+
+    public int getMC(){
+        return mudarCanal;
+    }
+
+    public void setMC(int mudarCanal){
+        this.mudarCanal = mudarCanal;
+    }
+    public int getMV(){
+        return mudarVol;
+    }
+    public void setMV(int mudarVol){
+        this.mudarVol = mudarVol;
     }
 }
