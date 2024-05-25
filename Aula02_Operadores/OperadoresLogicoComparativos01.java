@@ -1,4 +1,4 @@
-package Aula_02;
+package Aula02_Operadores;
 public class OperadoresLogicoComparativos01 {
 
 	public static void main(String[] args) {

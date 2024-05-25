@@ -1,4 +1,4 @@
-package Aula_03;
+package Aula03_CalculosMetodos;
 public class Calculo {
 	public void calculo(double a, double b) {
 		double soma, sub, div, mult;

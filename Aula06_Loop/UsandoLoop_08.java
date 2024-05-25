@@ -1,4 +1,4 @@
-package Aula_06;
+package Aula06_Loop;
 
 import java.util.Scanner;
 

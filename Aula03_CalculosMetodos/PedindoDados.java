@@ -1,4 +1,4 @@
-package Aula_03;
+package Aula03_CalculosMetodos;
 
 import java.util.Scanner;
 

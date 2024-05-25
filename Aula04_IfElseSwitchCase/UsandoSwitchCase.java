@@ -1,4 +1,4 @@
-package Aula_04;
+package Aula04_IfElseSwitchCase;
 
 public class UsandoSwitchCase {
 

@@ -1,4 +1,4 @@
-package Aula_03;
+package Aula03_CalculosMetodos;
 public class UsandoMetodos03 {
 
 	public static void main(String[] args) {
