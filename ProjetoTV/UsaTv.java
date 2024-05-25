@@ -8,14 +8,14 @@ public class UsaTv {
         cr.setMC(1);
         cr.setMV(50);
 
-        System.out.println("Canal Atual: "+cr.getCanal());
-        System.out.println("Volume Atual: "+cr.getVolume());
+        System.out.println("Canal Atual: "+cr.getMC());
+        System.out.println("Volume Atual: "+cr.getMV());
 
         // Associando o controle remoto a TV;
-        tv.setControleRemoro(cr);
+        tv.setControleRemoto(cr);
         
         // Alterando os valores usando o controle;
-        tv.getControleRemoto().setMV(10);
+        tv.getControleRemoto().setMC(10);
         tv.getControleRemoto().setMV(70);
 
         // Exibindo valores atuais

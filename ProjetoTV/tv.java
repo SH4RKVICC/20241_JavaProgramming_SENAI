@@ -2,6 +2,7 @@ package ProjetoTV;
 
 public class TV {
     private int volume, canal, mudarVol, mudarCanal;
+    private ControleRemoto controleRemoto;
 
     public int getVolume(){
         return volume;
@@ -26,10 +27,21 @@ public class TV {
     public void setMC(int mudarCanal){
         this.mudarCanal = mudarCanal;
     }
+
     public int getMV(){
         return mudarVol;
     }
+
     public void setMV(int mudarVol){
         this.mudarVol = mudarVol;
     }
+
+    public ControleRemoto getControleRemoto() {
+        return controleRemoto;
+    }
+
+    public void setControleRemoto(ControleRemoto controleRemoto) {
+        this.controleRemoto = controleRemoto;
+    }
+
 }
