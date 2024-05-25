@@ -1,0 +1,3 @@
+# 📒 Projeto Pessoa.
+### ✒️ Premissa...
+Neste material há um pequeno projeto realizado em aula, nele criamos uma classe TV com volume, canal, mudar volume, mudar canal e controle remoto e em seguidacriamos duas novas classes (ControleRemoto e UsaTv) para o algoritmo. As classes são todas projetada em formato privado.

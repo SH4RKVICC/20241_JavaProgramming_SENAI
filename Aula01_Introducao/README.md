@@ -1,3 +1,3 @@
 # 📒 Aula 01: Introdução.
 ### ✒️ Premissa...
-Este material mostra minha introdução na linguagem Java, aprendendo a mostrar informações ao usuarios e a utilizar variaveis.
+Neste material há minha introdução na linguagem Java, aprendendo a mostrar informações ao usuarios e a utilizar variaveis.

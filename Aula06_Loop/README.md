@@ -1,0 +1,3 @@
+# 📒 Aula 03: Calculós & Metódos.
+### ✒️ Premissa...
+Neste material há meu aprendizado em laços de repetição na linguagem de programação Java e utilizando meu conhecimento nos demais arquivos alocados. É um conteúdo inedito para mim que só conhecia os usos de While e For na linguagem Python.

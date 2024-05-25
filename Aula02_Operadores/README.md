@@ -1,0 +1,3 @@
+# 📒 Aula 02: Operadores.
+### ✒️ Premissa...
+Neste material há meu aprendizado em operadores aritmeticos e lógicos e os utilizando nos demais arquivos alocados.
