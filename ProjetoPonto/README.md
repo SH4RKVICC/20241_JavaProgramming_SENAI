@@ -1,0 +1,3 @@
+# 📒 Criando Uma Clase Ponto.
+### ✒️ Premissa...
+Neste material há um pequeno projeto realizado em aula, nele criamos uma classe Ponto que represente um ponto cartesiano que contém atríbutos para armazenar as coordenadas x e y, juntamente de métodos para mover o ponto, calcular a distância entre dois pontos e veririfcar se dois pontos são iguais.
