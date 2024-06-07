@@ -7,9 +7,7 @@ public class CLT extends Funcionario {
     }
 
     @Override
-    public Double calcularSalLiquido(){
-        Double inss = Math.min(sal * 0.11, 621.04);
-        Double ir = 0;
+    public double calcularSalLiquido(){
         if (sal <= 1412) {
             this.inss = 0.75;
         } else if (sal > 1412 && sal <= 2666.68){
@@ -19,7 +17,6 @@ public class CLT extends Funcionario {
 	    } else {
 		    this.inss = 0.14;
 	    }
-        return sal * (inss / 100); 
-    }
+        return sal - (sal * inss);
     }
 }

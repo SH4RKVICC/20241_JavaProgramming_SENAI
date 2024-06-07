@@ -8,9 +8,7 @@ public class PJ extends Funcionario {
     }
 
     @Override
-    public void calcularSalLiquido() {
-    Double inss = Math.min(sal * 0.11, 621.04);
-    Double ir = 0;
+    public double calcularSalLiquido() {
         if (sal <= 2259.20) {
             this.ir = 0;
         } else if (sal > 2259.20 && sal <= 2826.65){
@@ -22,12 +20,6 @@ public class PJ extends Funcionario {
         } else {
 	        this.ir = 0.275;
 	} 
-    Double salLiquido = sal - (sal * ir)
-    return salLiquido;
-   }
-
-   @Override
-   public void tipoContrato() {
-      salDesc =  sal * (ir / 100);
+    return sal - (sal * ir);
    }
 }
