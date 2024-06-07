@@ -3,15 +3,14 @@ package ProjetoFuncionario;
 public class PJ extends Funcionario {
     private double ir, sal;
 
-    public PJ(String nome, String contrato, Double sal, Double salDesc) {
-        super(nome, contrato, sal);
+    public PJ(String nome, Double sal) {
+        super(nome, "PJ", sal);
     }
 
-    public void tipoContrato() {
-        System.out.println(getContrato()+"PJ");
-    }
-
-    public Double calcularDesconto(){
+    @Override
+    public void calcularSalLiquido() {
+    Double inss = Math.min(sal * 0.11, 621.04);
+    Double ir = 0;
         if (sal <= 2259.20) {
             this.ir = 0;
         } else if (sal > 2259.20 && sal <= 2826.65){
@@ -23,6 +22,8 @@ public class PJ extends Funcionario {
         } else {
 	        this.ir = 0.275;
 	} 
+    Double salLiquido = sal - (sal * ir)
+    return salLiquido;
    }
 
    @Override

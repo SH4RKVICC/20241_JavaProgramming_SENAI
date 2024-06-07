@@ -2,15 +2,14 @@ package ProjetoFuncionario;
 public class CLT extends Funcionario {
     private double inss, sal;
 
-    public CLT(String nome, String contrato, double sal, double salDesc) {
-        super(nome, contrato, sal);
+    public CLT(String nome, double sal) {
+        super(nome, "CLT", sal);
     }
 
-    public void tipoContrato() {
-        System.out.print(getContrato()+"CLT");
-    }
-
-    public Double calcularDesconto(){
+    @Override
+    public Double calcularSalLiquido(){
+        Double inss = Math.min(sal * 0.11, 621.04);
+        Double ir = 0;
         if (sal <= 1412) {
             this.inss = 0.75;
         } else if (sal > 1412 && sal <= 2666.68){

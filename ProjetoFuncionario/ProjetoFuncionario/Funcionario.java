@@ -2,17 +2,15 @@ package ProjetoFuncionario;
 
 public abstract class Funcionario {
 
-    private String nome, contrato;
+    private String nome, tipo;
     private double sal;
 
-    public Funcionario(String nome, String contrato, Double sal, Doubles salDesc) {
+    public Funcionario(String nome, String tipo, Double sal) {
         this.nome = nome;
-        this.contrato = contrato;
         this.sal = sal;
+        this.tipo = tipo;
     }
 
-    public abstract void tipoContrato();
-
-    public abstract double calcularDesconto();
+    public abstract double calcularSalLiquido();
 
 }
