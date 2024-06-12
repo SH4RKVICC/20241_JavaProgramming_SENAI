@@ -1,12 +1,11 @@
 package ProjetoImplementandoInterface;
 
-public class formaGeometrica {
-    double calcularArea() {
-        return 0.0;
-    }
+public interface formaGeometrica {
 
-    double calcularPerimetro() {
-        return 0.0;
-    }
+    double calcularArea(double a);
+    double calcularArea(double a, double b);
 
-}
+    double calcularPerimetro(double a);
+    double calcularPerimetro(double a, double b);
+
+  }
