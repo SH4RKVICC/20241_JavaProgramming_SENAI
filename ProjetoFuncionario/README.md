@@ -1,3 +1,3 @@
-# 📒 Projeto Conta
+# 📒 Projeto Pessoa - Implementando Herança e Polimorfismo.
 ### ✒️ Premissa...
 Neste material há um pequeno projeto realizado em aula, nele criamos uma classe Funcionario com nome, salário e tipo (CLT ou PJ) e em seguida criamos duas classes derivadas (CLT e PJ) que implementam métodos específicos de calcular o salário líquido de cada tipo de funcionario.
