@@ -1,0 +1,3 @@
+# 📒 Projeto Conta Bancaria
+### ✒️ Premissa...
+Neste material há um pequeno projeto realizado em aula, nele criamos uma classe ContaBancaria com nome do titular, o número da conta, o saldo e os métodos para depositar, sacar e consultar o saldo.
