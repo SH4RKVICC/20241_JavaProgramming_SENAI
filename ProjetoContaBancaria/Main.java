@@ -9,7 +9,7 @@ public class Main {
 
         ContaBancaria l = new ContaBancaria("Lorena Dantas", "0002", 2800);
 
-        ContaBancaria n = new ContaBancaria("Natalia", "0003", 1500)
+        ContaBancaria n = new ContaBancaria("Natalia", "0003", 1500);
     }
     
 }
