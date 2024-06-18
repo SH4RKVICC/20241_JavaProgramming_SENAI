@@ -2,7 +2,7 @@ package Crud;
 
 import java.sql.SQLException;
 
-    public Connection  connection;
+    public Connection connection;
 
     private final BD bd;
 

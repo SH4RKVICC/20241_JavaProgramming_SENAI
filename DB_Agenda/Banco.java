@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Conexao {
+public class Banco {
     public Connection conn = null;
 	private final String DRIVER="com.mysql.jdbc.Driver";
 	private final String DBNAME = "banco";
