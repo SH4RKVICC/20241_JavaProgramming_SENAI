@@ -1,7 +1,9 @@
 package ProjetoContaBancaria;
 
 public class ContaBancaria {
+    @SuppressWarnings("unused")
     private String nomeTitular, cod, metodo, op;
+    @SuppressWarnings("unused")
     private double saldo;
 
     public ContaBancaria(String nomeTitular, String cod, double saldo) {
