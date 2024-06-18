@@ -18,14 +18,19 @@ public abstract class Ponto {
     }
 
     // Método para calcular distancia entre este ponto e o outro;
-    public void calcularDistancia(Ponto outroPonto){
+    public double calcularDistancia(Ponto outroPonto){
         double dx = this.x - outroPonto.x;
         double dy = this.y - outroPonto.y;
         return Math.sqrt(dx * dx + dy * dy);
     }
 
     // Método para verificar se este ponto é igual a outro ponto
+    /**
+     * @param outrPonto
+     * @return
+     */
     public boolean isIgual(Ponto outrPonto) {
+        Object outroPonto;
         return (this.x == outroPonto.x && this.y == outroPonto.y);
     }
 
