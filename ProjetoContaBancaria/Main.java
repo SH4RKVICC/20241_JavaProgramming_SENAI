@@ -2,6 +2,7 @@ package ProjetoContaBancaria;
 
 public class Main {
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         ContaBancaria m = new ContaBancaria("Milena Campos", "0000", 3270);
 
