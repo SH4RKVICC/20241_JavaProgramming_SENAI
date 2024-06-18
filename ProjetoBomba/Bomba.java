@@ -11,7 +11,6 @@ public class Bomba {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
-                // TODO Auto-generated cacht block
                 e.printStackTrace();
             }
         }
