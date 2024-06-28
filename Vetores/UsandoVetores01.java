@@ -7,6 +7,10 @@ public class UsandoVetores01 {
         int[]vetor1 = {1, 2, 3, 4, 5};
 
         System.out.println(vetor1[2]);
+
+        vetor[0]=3;
+
+        System.out.println(vetor[0]);
     }
     
 }
