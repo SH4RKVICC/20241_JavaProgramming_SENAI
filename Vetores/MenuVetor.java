@@ -10,6 +10,9 @@ public class MenuVetor {
         // Opção do menu (armazenadas em um vetor);
         String[] opcoes = {"Calcular Média.", "Exibir Maior Número.", "Sair."};
 
+        // Criando Novo Vetor;
+        int []num = new int[4];
+
         // Apresentação do Menu;
         for (int i = 0; i < opcoes.length; i++) {
             System.out.println((i + 1) + " - " + opcoes[i]);
@@ -22,15 +25,31 @@ public class MenuVetor {
         // Execução da ação escolhida;
         switch (opcao) {
             case 1:
-                int soma = 0;
-                for (int nota : notas) {
-                    soma += nota;
+                try (Scanner ler = new Scanner(System.in)) {
+                    for (int i = 0; i < num.length; i++) {
+                        System.out.println("Digite o número desejado: ");
+                        num[i] = ler.nextInt();
+                    }
                 }
-                double media = (double) soma / notas.length;
+                int soma = 0;
+                for (int n : num) {
+                    soma += n;
+                }
+                double media = (double) soma / num.length;
                 System.out.println("Média: "+media);
                 break;
             case 2:
-                // Código para calcular a média (como no ex. 1);
+                try (Scanner ler = new Scanner(System.in)) {
+                    for (int i = 0; i < num.length; i++) {
+                        System.out.println("Digite o número desejado: ");
+                        num[i] = ler.nextInt();
+                    }
+                }
+
+                if (i > i):
+                    System.out.println("O maior número é "+i);
+
+                // Código para calcular o maior número
                 break;
             case 3:
                 System.out.println("Saindo do menu... ");
