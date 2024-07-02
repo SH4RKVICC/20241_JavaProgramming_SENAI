@@ -4,7 +4,7 @@ public class MatrizDiagonal {
     public static void main(String[] args) {
         int[][] matriz = {
             {1, 0, 0},
-            {6, 2, 0},
+            {0, 2, 0},
             {0, 0, 3}
         };
 
